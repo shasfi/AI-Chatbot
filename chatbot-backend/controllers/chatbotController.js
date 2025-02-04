@@ -2,7 +2,7 @@
 const FAQ = require("../models/FAQ");
 const fs = require("fs");
 const path = require("path");
-
+hello
 exports.handleUserQuery = async (req, res) => {
   try {
     const query = req.body.query;
